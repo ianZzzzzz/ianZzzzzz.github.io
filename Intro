@@ -4,13 +4,17 @@
   <meta charset="utf-8">
   
   
-  <title>ian&#39;s page</title>
+  <title>Intro | ian&#39;s page</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta property="og:type" content="website">
-<meta property="og:title" content="ian&#39;s page">
-<meta property="og:url" content="https://ianzzzzzz.github.io/index.html">
+  <meta name="description" content="写在前面我在这介绍自己对技术的了解程度，以及所做过的工作。先自我评价，我没有做出令人眼前一亮的创新，以下只是我在感兴趣的事上花费时间的工作量证明。我把总结性的话放在前面，越往后写的内容越零碎。如果您在阅读后愿意发出一次面试邀请，或是有想法💡愿意分享，都可以联系我。邮箱：&amp;#105;&amp;#97;&amp;#x6e;&amp;#x6e;&amp;#111;&amp;#x62;&amp;#117;&amp;#x67;&amp;#x40;&amp;#103;&amp;#109">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Intro">
+<meta property="og:url" content="https://ianzzzzzz.github.io/Intro">
 <meta property="og:site_name" content="ian&#39;s page">
+<meta property="og:description" content="写在前面我在这介绍自己对技术的了解程度，以及所做过的工作。先自我评价，我没有做出令人眼前一亮的创新，以下只是我在感兴趣的事上花费时间的工作量证明。我把总结性的话放在前面，越往后写的内容越零碎。如果您在阅读后愿意发出一次面试邀请，或是有想法💡愿意分享，都可以联系我。邮箱：&amp;#105;&amp;#97;&amp;#x6e;&amp;#x6e;&amp;#111;&amp;#x62;&amp;#117;&amp;#x67;&amp;#x40;&amp;#103;&amp;#109">
 <meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2022-05-11T08:13:23.000Z">
+<meta property="article:modified_time" content="2022-05-14T08:20:44.167Z">
 <meta property="article:author" content="ZhengYiheng or ianZheng">
 <meta name="twitter:card" content="summary">
   
@@ -73,9 +77,7 @@
 </header>
 
       <div class="outer">
-        <section id="main">
-  
-    <article id="post-Intro" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+        <section id="main"><article id="post-Intro" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
   <div class="article-meta">
     <a href="/Intro" class="article-date">
   <time class="dt-published" datetime="2022-05-11T08:13:23.000Z" itemprop="datePublished">2022-05-11</time>
@@ -88,8 +90,8 @@
       <header class="article-header">
         
   
-    <h1 itemprop="name">
-      <a class="p-name article-title" href="/Intro">Intro</a>
+    <h1 class="p-name article-title" itemprop="headline name">
+      Intro
     </h1>
   
 
@@ -118,118 +120,19 @@
     </footer>
   </div>
   
-</article>
-
-
-
+    
+<nav id="article-nav">
   
-    <article id="post-Review" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
-  <div class="article-meta">
-    <a href="/Review" class="article-date">
-  <time class="dt-published" datetime="2022-05-11T08:10:28.000Z" itemprop="datePublished">2022-05-11</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
   
-    <h1 itemprop="name">
-      <a class="p-name article-title" href="/Review">Review</a>
-    </h1>
+    <a href="/Review" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">后一篇</strong>
+      <div class="article-nav-title">Review</div>
+    </a>
   
+</nav>
 
-      </header>
-    
-    <div class="e-content article-entry" itemprop="articleBody">
-      
-        <h1 id="回顾2021年底至2020年五月的工作"><a href="#回顾2021年底至2020年五月的工作" class="headerlink" title="回顾2021年底至2020年五月的工作"></a>回顾2021年底至2020年五月的工作</h1><h2 id="2021十月"><a href="#2021十月" class="headerlink" title="2021十月"></a>2021十月</h2><h3 id="关键词"><a href="#关键词" class="headerlink" title="关键词"></a>关键词</h3><h4 id="sklearn-keras-torch-tf"><a href="#sklearn-keras-torch-tf" class="headerlink" title="sklearn keras torch tf"></a>sklearn keras torch tf</h4><p>sklearn 预处理 基础模型全<br>keras 简化版tf<br>torch 好写的tf 手动写过反向传播<br>tf 太难用了 写过一次全忘了</p>
-<h4 id="Hadoop-Spark-Kafka-Flume-RabbitMq-Flink"><a href="#Hadoop-Spark-Kafka-Flume-RabbitMq-Flink" class="headerlink" title="Hadoop Spark Kafka Flume RabbitMq Flink"></a>Hadoop Spark Kafka Flume RabbitMq Flink</h4><pre><code>在我查阅的大数据相关的资料中这是排名第一的高频词，既然出现的如此频繁必然有原因。
-学习后我把hadoop总结为，由hdfs提供存储，由mapreduce进行计算，由yarn负责集群的监控与调度的一套可以实现高可用的分布式计算和存储服务。
-说来惭愧，只跟着课程写了几个WordCount，主要收获是，了解了虚拟机的使用，以及对命令行操作的了解。
-对比rabbitmq，kafka安装比较繁琐，基于zk的集群管理还要先部署zk，新版本可以将集群管理在kafka内完成
-kafka broker 备忘录kafka  and flume 记得看 
-exactly one 幂等性
-flume taildir source
-spark 分阶段执行
-flink
-</code></pre>
-<h4 id="Zookeeper-K8S"><a href="#Zookeeper-K8S" class="headerlink" title="Zookeeper K8S"></a>Zookeeper K8S</h4><p>分布式算法 paxos raft zab bully 《设计数据密集型应用》<br>k8s无所不能 是为了支撑起更大的应用 而不是为了用起来爽 我目前的应用根本触及不到他的应用领域</p>
-<h4 id="Mysql-Mongodb-Postgres-Neo4J"><a href="#Mysql-Mongodb-Postgres-Neo4J" class="headerlink" title="Mysql Mongodb Postgres Neo4J"></a>Mysql Mongodb Postgres Neo4J</h4><p>mysql 关系型好繁琐 要写jdbc session driver 还会被注入攻击 可以用mybatis避免注入攻击<br>mongo好好用 插入速度比mysql快<br>Neo4J正在用 文档友好<br>阿里云postgres 自带检测过滤功能 但用起来还是没有mongo顺手<br>influxdb 还没用上？？？</p>
-<h4 id="爬虫-xpath-正则表达式-Scrapy-Ajax"><a href="#爬虫-xpath-正则表达式-Scrapy-Ajax" class="headerlink" title="爬虫 xpath 正则表达式 Scrapy Ajax"></a>爬虫 xpath 正则表达式 Scrapy Ajax</h4><p>爬取了税务局的静态网页，觉得很无聊，写正则表达式好费劲，爬取动态网页更是繁琐，用了美丽汤 xpath忘了是干嘛用的 记得可以简化一些操作</p>
-<h4 id="Spring-Mybatis-Hibernate"><a href="#Spring-Mybatis-Hibernate" class="headerlink" title="Spring Mybatis Hibernate"></a>Spring Mybatis Hibernate</h4><p>spring在注解上写配置<br>mybatis 自己写sql映射，听说plus很好用<br>hibernate能根据数据库自己生成持久化代码，但是知识体系学习起来成本高，只跑了helloworld还报错了</p>
-<h4 id="Swift-AndroidStudio-Flutter"><a href="#Swift-AndroidStudio-Flutter" class="headerlink" title="Swift AndroidStudio Flutter"></a>Swift AndroidStudio Flutter</h4><p>这部分学习挺有收获的，对移动端app要怎么设计有了初步的了解，对我来说十分的新鲜<br>想试试mac独占的swift，option类型挺新鲜 在这个过程中重新对语言有了认识《编码与类型系统》<br>as启动也太慢了吧</p>
-<h4 id="HTML-CSS-Tomcat-Nginx-React-Vue"><a href="#HTML-CSS-Tomcat-Nginx-React-Vue" class="headerlink" title="HTML CSS Tomcat Nginx React Vue"></a>HTML CSS Tomcat Nginx React Vue</h4><p>我对前端知识的了解仅限于html的各类标签和css中如何设置样式，以及nginx专注于纯html这种静态资源并且能作为反向代理服务器使用，渲染行为在用户端进行而tomcat是对java的实现，专注于jsp这种动态页面，所以tomcat提供的html可能因用户而异，渲染的结果由服务端决定。当时想了解前端的原因的主要是被各种好看的UI效果吸引了，为什么他的页面能做的这样华丽，我也想做个华丽的博客，可是了解之后感觉并不是我想的那样容易。在这个过程中在React和Vue的官网游荡了几天，他们写的都是js，但是我在脑中没能把这个框架的调用方式和实际的需求联系起来，看过就忘。</p>
-<h4 id="Wordpress-宝塔面板-Hexo"><a href="#Wordpress-宝塔面板-Hexo" class="headerlink" title="Wordpress 宝塔面板 Hexo"></a>Wordpress 宝塔面板 Hexo</h4><p>还是因为我想做个好看的动态博客，还想体验一下怎么管理一个网站，于是在docker中运行了wordpress和宝塔面板，发现可以配置的功能令人眼花缭乱，我的知识储备还不匹配，最后老实的用了hexo。</p>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="https://ianzzzzzz.github.io/Review" data-id="cl34mdmk50001dd9k7kp8eajo" data-title="Review" class="article-share-link">分享</a>
-      
-      
-      
-    </footer>
-  </div>
   
 </article>
-
-
-
-  
-    <article id="post-hello-world" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
-  <div class="article-meta">
-    <a href="/hello-world" class="article-date">
-  <time class="dt-published" datetime="2022-05-11T04:17:52.490Z" itemprop="datePublished">2022-05-11</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="p-name article-title" href="/hello-world">Hello World</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="e-content article-entry" itemprop="articleBody">
-      
-        <p>Welcome to <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a target="_blank" rel="noopener" href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a target="_blank" rel="noopener" href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="https://ianzzzzzz.github.io/hello-world" data-id="cl34mdmk60002dd9kg9e60707" data-title="Hello World" class="article-share-link">分享</a>
-      
-      
-      
-    </footer>
-  </div>
-  
-</article>
-
-
-
-  
 
 
 </section>

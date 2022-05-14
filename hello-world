@@ -116,7 +116,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://ianzzzzzz.github.io/hello-world" data-id="cl314la9m0000809kdz781kb2" data-title="Hello World" class="article-share-link">分享</a>
+      <a data-url="https://ianzzzzzz.github.io/hello-world" data-id="cl34mdmk60002dd9kg9e60707" data-title="Hello World" class="article-share-link">分享</a>
       
       
       
@@ -124,6 +124,20 @@
   </div>
   
     
+<nav id="article-nav">
+  
+    <a href="/Review" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">前一篇</strong>
+      <div class="article-nav-title">
+        
+          Review
+        
+      </div>
+    </a>
+  
+  
+</nav>
+
   
 </article>
 
@@ -155,6 +169,14 @@
     <h3 class="widget-title">最新文章</h3>
     <div class="widget">
       <ul>
+        
+          <li>
+            <a href="/Intro">Intro</a>
+          </li>
+        
+          <li>
+            <a href="/Review">Review</a>
+          </li>
         
           <li>
             <a href="/hello-world">Hello World</a>
