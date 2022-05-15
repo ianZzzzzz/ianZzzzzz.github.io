@@ -134,11 +134,6 @@
     </a>
   
   
-    <a href="/hello-world" id="article-nav-older" class="article-nav-link-wrap">
-      <strong class="article-nav-caption">后一篇</strong>
-      <div class="article-nav-title">Hello World</div>
-    </a>
-  
 </nav>
 
   
@@ -179,10 +174,6 @@
         
           <li>
             <a href="/Review">Review</a>
-          </li>
-        
-          <li>
-            <a href="/hello-world">Hello World</a>
           </li>
         
       </ul>
