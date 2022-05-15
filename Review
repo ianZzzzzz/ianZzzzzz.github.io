@@ -6,15 +6,15 @@
   
   <title>Review | ian&#39;s page</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="我对关键词这些关键词目前的了解和看法sklearn keras torch tfsklearn 预处理 基础模型全keras 简化版tftorch 好写的tf 手动写过反向传播tf 太难用了 写过一次全忘了 Hadoop Spark Kafka Flume RabbitMq Flink在我查阅的大数据相关的资料中这是排名第一的高频词，既然出现的如此频繁必然有原因。 学习后我把hadoop总结为，由">
+  <meta name="description" content="对一些关键词的了解程度机器学习numpy pandas :用来做数据清洗和画图展示sklearn :用于数据清洗后的预处理以及机器学习函数库opencv:描述点和线的位置进行画图keras :简化版的tensorflow，跑过minst等入门数据集torch : 写过反向传播和梯度计算tf : 调用LeNet进行灰度图像分类 Hadoop在查阅的大数据的资料中hadoop排名第一的高频词，学习后我">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Review">
 <meta property="og:url" content="https://ianzzzzzz.github.io/Review">
 <meta property="og:site_name" content="ian&#39;s page">
-<meta property="og:description" content="我对关键词这些关键词目前的了解和看法sklearn keras torch tfsklearn 预处理 基础模型全keras 简化版tftorch 好写的tf 手动写过反向传播tf 太难用了 写过一次全忘了 Hadoop Spark Kafka Flume RabbitMq Flink在我查阅的大数据相关的资料中这是排名第一的高频词，既然出现的如此频繁必然有原因。 学习后我把hadoop总结为，由">
+<meta property="og:description" content="对一些关键词的了解程度机器学习numpy pandas :用来做数据清洗和画图展示sklearn :用于数据清洗后的预处理以及机器学习函数库opencv:描述点和线的位置进行画图keras :简化版的tensorflow，跑过minst等入门数据集torch : 写过反向传播和梯度计算tf : 调用LeNet进行灰度图像分类 Hadoop在查阅的大数据的资料中hadoop排名第一的高频词，学习后我">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2022-05-11T08:10:28.000Z">
-<meta property="article:modified_time" content="2022-05-14T10:44:20.739Z">
+<meta property="article:modified_time" content="2022-05-15T15:33:59.123Z">
 <meta property="article:author" content="ZhengYiheng or ianZheng">
 <meta name="twitter:card" content="summary">
   
@@ -99,24 +99,17 @@
     
     <div class="e-content article-entry" itemprop="articleBody">
       
-        <h1 id="我对关键词这些关键词目前的了解和看法"><a href="#我对关键词这些关键词目前的了解和看法" class="headerlink" title="我对关键词这些关键词目前的了解和看法"></a>我对关键词这些关键词目前的了解和看法</h1><h4 id="sklearn-keras-torch-tf"><a href="#sklearn-keras-torch-tf" class="headerlink" title="sklearn keras torch tf"></a>sklearn keras torch tf</h4><p>sklearn 预处理 基础模型全<br>keras 简化版tf<br>torch 好写的tf 手动写过反向传播<br>tf 太难用了 写过一次全忘了</p>
-<h4 id="Hadoop-Spark-Kafka-Flume-RabbitMq-Flink"><a href="#Hadoop-Spark-Kafka-Flume-RabbitMq-Flink" class="headerlink" title="Hadoop Spark Kafka Flume RabbitMq Flink"></a>Hadoop Spark Kafka Flume RabbitMq Flink</h4><pre><code>在我查阅的大数据相关的资料中这是排名第一的高频词，既然出现的如此频繁必然有原因。
-学习后我把hadoop总结为，由hdfs提供存储，由mapreduce进行计算，由yarn负责集群的监控与调度的一套可以实现高可用的分布式计算和存储服务。
-说来惭愧，只跟着课程写了几个WordCount，主要收获是，了解了虚拟机的使用，以及对命令行操作的了解。
-对比rabbitmq，kafka安装比较繁琐，基于zk的集群管理还要先部署zk，新版本可以将集群管理在kafka内完成
-kafka broker 备忘录kafka  and flume 记得看 
-exactly one 幂等性
-flume taildir source
-spark 分阶段执行
-flink
-</code></pre>
-<h4 id="Zookeeper-K8S"><a href="#Zookeeper-K8S" class="headerlink" title="Zookeeper K8S"></a>Zookeeper K8S</h4><p>分布式算法 paxos raft zab bully 《设计数据密集型应用》<br>k8s无所不能 是为了支撑起更大的应用 而不是为了用起来爽 我目前的应用根本触及不到他的应用领域</p>
-<h4 id="Mysql-Mongodb-Postgres-Neo4J"><a href="#Mysql-Mongodb-Postgres-Neo4J" class="headerlink" title="Mysql Mongodb Postgres Neo4J"></a>Mysql Mongodb Postgres Neo4J</h4><p>mysql 关系型好繁琐 要写jdbc session driver 还会被注入攻击 可以用mybatis避免注入攻击<br>mongo好好用 插入速度比mysql快<br>Neo4J正在用 文档友好<br>阿里云postgres 自带检测过滤功能 但用起来还是没有mongo顺手<br>influxdb 还没用上？？？</p>
-<h4 id="爬虫-xpath-正则表达式-Scrapy-Ajax"><a href="#爬虫-xpath-正则表达式-Scrapy-Ajax" class="headerlink" title="爬虫 xpath 正则表达式 Scrapy Ajax"></a>爬虫 xpath 正则表达式 Scrapy Ajax</h4><p>爬取了税务局的静态网页，觉得很无聊，写正则表达式好费劲，爬取动态网页更是繁琐，用了美丽汤 xpath忘了是干嘛用的 记得可以简化一些操作</p>
-<h4 id="Spring-Mybatis-Hibernate"><a href="#Spring-Mybatis-Hibernate" class="headerlink" title="Spring Mybatis Hibernate"></a>Spring Mybatis Hibernate</h4><p>spring在注解上写配置<br>mybatis 自己写sql映射，听说plus很好用<br>hibernate能根据数据库自己生成持久化代码，但是知识体系学习起来成本高，只跑了helloworld还报错了</p>
+        <h1 id="对一些关键词的了解程度"><a href="#对一些关键词的了解程度" class="headerlink" title="对一些关键词的了解程度"></a>对一些关键词的了解程度</h1><h4 id="机器学习"><a href="#机器学习" class="headerlink" title="机器学习"></a>机器学习</h4><p>numpy pandas :用来做数据清洗和画图展示<br>sklearn :用于数据清洗后的预处理以及机器学习函数库<br>opencv:描述点和线的位置进行画图<br>keras :简化版的tensorflow，跑过minst等入门数据集<br>torch : 写过反向传播和梯度计算<br>tf : 调用LeNet进行灰度图像分类</p>
+<h4 id="Hadoop"><a href="#Hadoop" class="headerlink" title="Hadoop"></a>Hadoop</h4><p>在查阅的大数据的资料中hadoop排名第一的高频词，学习后我把hadoop总结为，可以实现高可用的分布式计算和存储服务，其中由hdfs提供存储，由mapreduce进行计算，由yarn和zookeeper负责集群的监控与调度，也见过k8s上的实现。说来惭愧，在hadoop的学习中，在完成环境配置后只跟着课程写了几个WordCount，主要收获是，了解了虚拟机的使用，以及对命令行操作的了解。</p>
+<h4 id="消息队列"><a href="#消息队列" class="headerlink" title="消息队列"></a>消息队列</h4><p>我了解到消息队列可以在高峰时进行缓冲，还能做到消息的分发。对rabbit和kafka进行部署后发现我的数据量太小了（峰值3000条&#x2F;s），还达不到消息队列的瓶颈，于是选择了安装更为简单的rabbitmq，采用手动ack的方式消费消息。对比rabbitmq，kafka安装比较繁琐，基于zk的集群管理还要先部署zookeeper，不过新版本可以将集群管理在kafka内完成。在学习hadoop的过程中，使用flume的tailDir Source监控hdfs中的文件，发送到netcat。</p>
+<h4 id="计算框架"><a href="#计算框架" class="headerlink" title="计算框架"></a>计算框架</h4><p>用java写flink完成了日志数据的json解析-&gt;watermark-&gt;keyby-&gt;process流程，基本完成了论文中的特征提取功能，有想用CEP库对行为状态进行建模，以及CDC进行数据的抓取，但目前还没有足够的了解。<br>用scala写过spark的wordcount，我感觉像是内存版的mapreduce，第一次写了scala，发现lambda表达式的写法好多样：）</p>
+<h4 id="Zookeeper-K8S-yarn"><a href="#Zookeeper-K8S-yarn" class="headerlink" title="Zookeeper K8S yarn"></a>Zookeeper K8S yarn</h4><p>zookeeper进行节点状态的监控和配置的管理<br>yarn进行任务管理和资源的分配<br>k8s似乎无所不能，在k8s上运行过flink官方配置的session集群。但我目前还不需要，k8s是为了支撑起更大的应用，而我目前的需求compose就可以满足。</p>
+<h4 id="爬虫-xpath-正则表达式-Scrapy-Ajax"><a href="#爬虫-xpath-正则表达式-Scrapy-Ajax" class="headerlink" title="爬虫 xpath 正则表达式 Scrapy Ajax"></a>爬虫 xpath 正则表达式 Scrapy Ajax</h4><p>爬取了海关的静态网页，觉得很无聊，写正则表达式好费劲，爬取动态网页更是繁琐，用了beautifulsoup能简化点工作。</p>
+<h4 id="Spring-Mybatis-Hibernate"><a href="#Spring-Mybatis-Hibernate" class="headerlink" title="Spring Mybatis Hibernate"></a>Spring Mybatis Hibernate</h4><p>spring在注解上写配置<br>mybatis 自己写sql映射，听说plus很好用，但没用过。<br>hibernate能根据数据库自己生成持久化代码，但是知识体系学习起来成本高，只跑了helloworld还报错了</p>
 <h4 id="Swift-AndroidStudio-Flutter"><a href="#Swift-AndroidStudio-Flutter" class="headerlink" title="Swift AndroidStudio Flutter"></a>Swift AndroidStudio Flutter</h4><p>这部分学习挺有收获的，对移动端app要怎么设计有了初步的了解，对我来说十分的新鲜<br>想试试mac独占的swift，option类型挺新鲜 在这个过程中重新对语言有了认识《编码与类型系统》<br>as启动也太慢了吧</p>
 <h4 id="HTML-CSS-Tomcat-Nginx-React-Vue"><a href="#HTML-CSS-Tomcat-Nginx-React-Vue" class="headerlink" title="HTML CSS Tomcat Nginx React Vue"></a>HTML CSS Tomcat Nginx React Vue</h4><p>我对前端知识的了解仅限于html的各类标签和css中如何设置样式，以及nginx专注于纯html这种静态资源并且能作为反向代理服务器使用，渲染行为在用户端进行而tomcat是对java的实现，专注于jsp这种动态页面，所以tomcat提供的html可能因用户而异，渲染的结果由服务端决定。当时想了解前端的原因的主要是被各种好看的UI效果吸引了，为什么他的页面能做的这样华丽，我也想做个华丽的博客，可是了解之后感觉并不是我想的那样容易。在这个过程中在React和Vue的官网游荡了几天，他们写的都是js，但是我在脑中没能把这个框架的调用方式和实际的需求联系起来，看过就忘。</p>
 <h4 id="Wordpress-宝塔面板-Hexo"><a href="#Wordpress-宝塔面板-Hexo" class="headerlink" title="Wordpress 宝塔面板 Hexo"></a>Wordpress 宝塔面板 Hexo</h4><p>还是因为我想做个好看的动态博客，还想体验一下怎么管理一个网站，于是在docker中运行了wordpress和宝塔面板，发现可以配置的功能令人眼花缭乱，我的知识储备还不匹配，最后老实的用了hexo。</p>
+<h4 id="待补充"><a href="#待补充" class="headerlink" title="待补充"></a>待补充</h4><p>事务 两阶段三阶段提交 规范化 范式<br>exactlyOne和幂等性<br>分布式算法 paxos raft zab bully 《设计数据密集型应用》读后感 《编码与类型系统》读后感</p>
 
       
     </div>
