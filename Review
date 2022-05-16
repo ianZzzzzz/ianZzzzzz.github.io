@@ -6,15 +6,15 @@
   
   <title>Review | ian&#39;s page</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="对一些关键词的了解程度机器学习numpy pandas :用来做数据清洗和画图展示sklearn :用于数据清洗后的预处理以及机器学习函数库opencv:描述点和线的位置进行画图keras :简化版的tensorflow，跑过minst等入门数据集torch : 写过反向传播和梯度计算tf : 调用LeNet进行灰度图像分类 Hadoop在查阅的大数据的资料中hadoop排名第一的高频词，学习后我">
+  <meta name="description" content="对一些关键词的了解程度机器学习numpy pandas :用来做数据清洗和画图展示sklearn :用于数据清洗后的预处理以及机器学习函数库opencv:描述点和线的位置进行画图keras :简化版的tensorflow，跑过minst等入门数据集torch : 写过反向传播和梯度计算tf : 调用LeNet进行灰度图像分类 Hadoop在查阅的大数据的资料中hadoop是排名第一的高频词，学习后">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Review">
 <meta property="og:url" content="https://ianzzzzzz.github.io/Review">
 <meta property="og:site_name" content="ian&#39;s page">
-<meta property="og:description" content="对一些关键词的了解程度机器学习numpy pandas :用来做数据清洗和画图展示sklearn :用于数据清洗后的预处理以及机器学习函数库opencv:描述点和线的位置进行画图keras :简化版的tensorflow，跑过minst等入门数据集torch : 写过反向传播和梯度计算tf : 调用LeNet进行灰度图像分类 Hadoop在查阅的大数据的资料中hadoop排名第一的高频词，学习后我">
+<meta property="og:description" content="对一些关键词的了解程度机器学习numpy pandas :用来做数据清洗和画图展示sklearn :用于数据清洗后的预处理以及机器学习函数库opencv:描述点和线的位置进行画图keras :简化版的tensorflow，跑过minst等入门数据集torch : 写过反向传播和梯度计算tf : 调用LeNet进行灰度图像分类 Hadoop在查阅的大数据的资料中hadoop是排名第一的高频词，学习后">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2022-05-11T08:10:28.000Z">
-<meta property="article:modified_time" content="2022-05-15T15:41:46.153Z">
+<meta property="article:modified_time" content="2022-05-16T02:21:57.371Z">
 <meta property="article:author" content="ZhengYiheng or ianZheng">
 <meta name="twitter:card" content="summary">
   
@@ -100,7 +100,7 @@
     <div class="e-content article-entry" itemprop="articleBody">
       
         <h1 id="对一些关键词的了解程度"><a href="#对一些关键词的了解程度" class="headerlink" title="对一些关键词的了解程度"></a>对一些关键词的了解程度</h1><h4 id="机器学习"><a href="#机器学习" class="headerlink" title="机器学习"></a>机器学习</h4><p>numpy pandas :用来做数据清洗和画图展示<br>sklearn :用于数据清洗后的预处理以及机器学习函数库<br>opencv:描述点和线的位置进行画图<br>keras :简化版的tensorflow，跑过minst等入门数据集<br>torch : 写过反向传播和梯度计算<br>tf : 调用LeNet进行灰度图像分类</p>
-<h4 id="Hadoop"><a href="#Hadoop" class="headerlink" title="Hadoop"></a>Hadoop</h4><p>在查阅的大数据的资料中hadoop排名第一的高频词，学习后我把hadoop总结为，可以实现高可用的分布式计算和存储服务，其中由hdfs提供存储，由mapreduce进行计算，由yarn和zookeeper负责集群的监控与调度，也见过k8s上的实现。说来惭愧，在hadoop的学习中，在完成环境配置后只跟着课程写了几个WordCount，主要收获是，了解了虚拟机的使用，以及对命令行操作的了解。</p>
+<h4 id="Hadoop"><a href="#Hadoop" class="headerlink" title="Hadoop"></a>Hadoop</h4><p>在查阅的大数据的资料中hadoop是排名第一的高频词，学习后我把hadoop总结为，可以实现高可用的分布式计算和存储服务，其中由hdfs提供存储，由mapreduce进行计算，由yarn和zookeeper负责集群的监控与调度，也见过k8s上的实现。说来惭愧，在hadoop的学习中，在完成环境配置后只跟着课程写了几个WordCount，主要收获是，了解了虚拟机的使用，以及对命令行操作的了解。</p>
 <h4 id="消息队列"><a href="#消息队列" class="headerlink" title="消息队列"></a>消息队列</h4><p>我了解到消息队列可以在高峰时进行缓冲，还能做到消息的分发。对rabbit和kafka进行部署后发现我的数据量太小了（峰值3000条&#x2F;s），还达不到消息队列的瓶颈，于是选择了安装更为简单的rabbitmq，采用手动ack的方式消费消息。对比rabbitmq，kafka安装比较繁琐，基于zk的集群管理还要先部署zookeeper，不过新版本可以将集群管理在kafka内完成。在学习hadoop的过程中，使用flume的tailDir Source监控hdfs中的文件，发送到netcat。</p>
 <h4 id="计算框架"><a href="#计算框架" class="headerlink" title="计算框架"></a>计算框架</h4><p>用java写flink完成了日志数据的json解析-&gt;watermark-&gt;keyby-&gt;process流程，基本完成了论文中的特征提取功能，有想用CEP库对行为状态进行建模，以及CDC进行数据的抓取，但目前还没有足够的了解。<br>用scala写过spark的wordcount，我感觉像是内存版的mapreduce，第一次写了scala，发现lambda表达式的写法好多样：）</p>
 <h4 id="Zookeeper-K8S-yarn"><a href="#Zookeeper-K8S-yarn" class="headerlink" title="Zookeeper K8S yarn"></a>Zookeeper K8S yarn</h4><p>zookeeper进行节点状态的监控和配置的管理<br>yarn进行任务管理和资源的分配<br>k8s似乎无所不能，在k8s上运行过flink官方配置的session集群。但我目前还不需要，k8s是为了支撑起更大的应用，而我目前的需求compose就可以满足。</p>
