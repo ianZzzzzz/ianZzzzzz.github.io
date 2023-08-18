@@ -50,7 +50,8 @@ audio_dataset = AudioDataset('/opt/audio-s',device)
 # 定义数据加载器
 audio_loader = DataLoader(audio_dataset, batch_size=1, shuffle=True)
 # 定义LSTM模型
-lstm_model = nn.LSTM(input_size=512, hidden_size=256, num_layers=2, batch_first=True)
+lstm_model = nn.LSTM(input_size=512, hidden_size=256, num_layers=2, batch_first=True).half() 
+
 # 定义损失函数和优化器
 criterion = nn.MSELoss()
 optimizer = Adam(lstm_model.parameters(), lr=0.001)
@@ -66,6 +67,7 @@ for epoch in range(num_epochs):
         # 提取特征
 
         wav2vec_features = wav2vec_model.feature_extractor(audio_batch)
+        wav2vec_features = wav2vec_features.transpose(1,2)
         # 使用LSTM模型处理特征
         output, (hidden, cell) = lstm_model(wav2vec_features)
 
