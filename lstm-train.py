@@ -13,26 +13,26 @@ device = torch.device("cuda:0")
 # 使用TensorBoard记录训练过程
 writer = SummaryWriter()
 class AudioDataset(Dataset):
-    def __init__(self, directory, transform=None):
+    def __init__(self, directory, device):
         self.directory = directory
-        self.transform = transform
         self.file_paths = [os.path.join(directory, f) for f in os.listdir(directory) if f.endswith('.mp3')]
+        self.device = device
 
     def __len__(self):
         return len(self.file_paths)
-
+    
     def __getitem__(self, idx):
         file_path = self.file_paths[idx]
         waveform, sample_rate = torchaudio.load(file_path)
 
         # 将左右声道合并
         waveform = torch.mean(waveform, dim=0, keepdim=True)
-        # 将数据移动到GPU并转换为HalfTensor
-        waveform = waveform.to(device).half()
-         if self.transform:
-             waveform = self.transform(waveform)
 
-        return waveform.squeeze(0) 
+        # 将数据移动到GPU并转换为HalfTensor
+        waveform = waveform.to(self.device).half()
+
+        return waveform.squeeze(0)
+    
 
 def load_wav2vec(model_path):
     print("loading model(s) from {}".format(model_path))
@@ -46,7 +46,7 @@ def load_wav2vec(model_path):
 # 加载wav2vec模型
 wav2vec_model = load_wav2vec('/opt/chinese-wav2vec2-base-fairseq-ckpt.pt')
 # 定义数据集
-audio_dataset = AudioDataset('/opt/audio-s', transform=wav2vec_model.feature_extractor)
+audio_dataset = AudioDataset('/opt/audio-s',device)
 # 定义数据加载器
 audio_loader = DataLoader(audio_dataset, batch_size=1, shuffle=True)
 # 定义LSTM模型
@@ -64,8 +64,8 @@ for epoch in range(num_epochs):
         # 将数据移动到正确的设备上，并将其转换为正确的数据类型
         audio_batch = audio_batch.to(device).half()  # 如果你的模型是半精度的
         # 提取特征
-        wav2vec_features = wav2vec_model.feature_extractor(audio_batch)
 
+        wav2vec_features = wav2vec_model.feature_extractor(audio_batch)
         # 使用LSTM模型处理特征
         output, (hidden, cell) = lstm_model(wav2vec_features)
 
