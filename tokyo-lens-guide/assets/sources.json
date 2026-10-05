@@ -1,0 +1,62 @@
+[
+  {
+    "id": "minolta58",
+    "file": "minolta58.jpg",
+    "source": "https://fangzhoujiang.wordpress.com/wp-content/uploads/2017/04/lens2.jpg?w=1000",
+    "source_page": "https://fangzhoujiang.wordpress.com/2017/04/16/minolta-mc-rokkor-pf-58mm-1-4-bokehlicious-machine-from-70s/",
+    "credit": "Fang-Zhou Jiang",
+    "width": 1000,
+    "height": 646,
+    "bytes": 57178
+  },
+  {
+    "id": "minolta58-sample",
+    "file": "minolta58-sample.jpg",
+    "source": "https://fangzhoujiang.wordpress.com/wp-content/uploads/2017/04/dscf8499.jpg?w=1000",
+    "source_page": "https://fangzhoujiang.wordpress.com/2017/04/16/minolta-mc-rokkor-pf-58mm-1-4-bokehlicious-machine-from-70s/",
+    "credit": "Fang-Zhou Jiang",
+    "width": 999,
+    "height": 788,
+    "bytes": 91813
+  },
+  {
+    "id": "konica40",
+    "file": "konica40.jpg",
+    "source": "https://phillipreeve.net/blog/wp-content/uploads/2023/04/DSC_3528.jpg",
+    "source_page": "https://phillipreeve.net/blog/konica-hexanon-ar-40mm-f1-8/",
+    "credit": "Martin / phillipreeve.net",
+    "width": 800,
+    "height": 494,
+    "bytes": 70134
+  },
+  {
+    "id": "konica40-sample",
+    "file": "konica40-sample.jpg",
+    "source": "https://phillipreeve.net/blog/wp-content/uploads/2023/04/DSC_1252.jpg",
+    "source_page": "https://phillipreeve.net/blog/konica-hexanon-ar-40mm-f1-8/",
+    "credit": "Martin / phillipreeve.net",
+    "width": 800,
+    "height": 532,
+    "bytes": 100809
+  },
+  {
+    "id": "konica57",
+    "file": "konica57.jpg",
+    "source": "https://thenoisyshutter.com/wp-content/uploads/2023/05/DSC5868web.jpg",
+    "source_page": "https://thenoisyshutter.com/2023/05/28/legacy-lens-review-konica-hexanon-ar-57mm-f1-4/",
+    "credit": "BSmith / The Noisy Shutter",
+    "width": 1100,
+    "height": 734,
+    "bytes": 83144
+  },
+  {
+    "id": "konica57-sample",
+    "file": "konica57-sample.jpg",
+    "source": "https://thenoisyshutter.com/wp-content/uploads/2023/05/Jack-Asleep-1024x682.jpg",
+    "source_page": "https://thenoisyshutter.com/2023/05/28/legacy-lens-review-konica-hexanon-ar-57mm-f1-4/",
+    "credit": "BSmith / The Noisy Shutter",
+    "width": 1024,
+    "height": 682,
+    "bytes": 85463
+  }
+]
